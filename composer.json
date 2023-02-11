@@ -1,0 +1,29 @@
+{
+    "name": "hapheus/nova-single-value-card",
+    "description": "A Laravel Nova card that displays a single value.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0|^8.1|^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hapheus\\NovaSingleValueCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hapheus\\NovaSingleValueCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
